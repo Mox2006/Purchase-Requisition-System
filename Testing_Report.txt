@@ -1,0 +1,40 @@
+Purchase Requisition System Testing
+
+1. Introduction
+
+Testing has been carried out on my purchases requisition system written in Python.
+
+2. Requisitions
+
+Six Requisitions were created. Different costs were added to each one. The table below shows the requisitions created.
+
+Requisition ID	Total	Initial Status
+10001	$450	Approved
+10002	$1200	Not approved
+10003	$650	Pending
+10004	$400	Approved
+10005	$800	Pending
+10006	$900	Pending
+
+3. Manager Reply
+
+Manager replies were tested. Requisitions 10003 and 10005 were approved and requisition 10006 was rejected. The status of the requisitions were successfully changed.
+
+4. Statistics
+
+The following statistics were found:
+
+Statistics	Result
+Submitted	6
+Approved	4
+Pending		0
+Not approved	2
+
+
+5. Invalid Data
+
+Invalid data (price) was inputted. An error message appeared meaning invalid data had been handled correctly.
+
+6. Conclusion
+
+Overall, it has been shown that the Purchase Requisition System allows purchases to be requested, total values to be calculated, decisions to be made on approvals, and statistics to be displayed.
